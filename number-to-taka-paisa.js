@@ -1,5 +1,3 @@
-
-
 function price_in_words(price) {
    var sglDigit = ["Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"],
       dblDigit = ["Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"],
@@ -75,6 +73,3 @@ function price_in_words_with_paisa(num){
   return value;
 }
 
-//how to use
-var taka = price_in_words_with_paisa('1200.254545454');
-console.log(taka);
